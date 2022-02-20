@@ -1,0 +1,65 @@
+.nasaicon {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-title{
+    cursor: default;
+    font-family: 'Nasalization Rg';
+}
+
+.main-foto, .apod-foto, .asteroid-foto, .gallery-foto {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/nebula.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    font-family: 'Nasalization Rg';
+}
+
+.main-foto {
+    background-image: url(../img/nebula.jpg);
+}
+
+.apod-foto {
+    background-image: url(../img/apod-foto.jpg);
+}
+
+.asteroid-foto {
+    background-image: url(../img/asteroids.jpg);
+}
+
+.foto-semana img{
+    height: 500px;
+    width: 500px;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+
+.img-gallery{
+    height: 320px;
+    width: 240px;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+
+footer {
+    border-top: 1px solid #282828;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+
+/* Font */
+@font-face {
+    font-family: 'Nasalization Rg';
+    src: url('../fonts/nasalization-rg.ttf');
+}
